@@ -27,7 +27,7 @@ pip install dacite json5
 ### Module Setup
 Install via PyPi
 ```bash
-pip install dacite json5
+pip install aka_json
 ```
 
 Or clone the repository:
