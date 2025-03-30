@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="aka_json",
-    version="1.0.0",
+    version="1.0.1",
     author="FluffyFolfie",
     author_email="e-stepanov-ig@yandex.ru",
     description="JSON/JSON5 file handling with dataclass support",
