@@ -6,7 +6,6 @@ This module defines a custom JSON encoder (`JsonEncoder`) that extends the stand
 
 from datetime import datetime, date, time
 from json import JSONEncoder
-from typing import Any
 import base64
 
 
