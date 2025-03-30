@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: aka_json
-Version: 1.0.0
+Version: 1.0.1
 Summary: JSON/JSON5 file handling with dataclass support
 Home-page: https://github.com/FluffyFolfie/aka_json
 Author: FluffyFolfie
@@ -54,12 +54,18 @@ A Python module for robust JSON/JSON5 file handling with datataсlass support, c
 ## Installation
 
 ### Dependencies
+Use this if you clone repository
 ```bash
 pip install dacite json5
 ```
 
 ### Module Setup
-Clone the repository:
+Install via PyPi
+```bash
+pip install aka_json
+```
+
+Or clone the repository:
 ```bash
 git clone https://github.com/your-repo/aka_json.git
 cd aka_json
