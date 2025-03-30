@@ -1,3 +1,38 @@
+Metadata-Version: 2.4
+Name: aka_json
+Version: 1.0.0
+Summary: JSON/JSON5 file handling with dataclass support
+Home-page: https://github.com/FluffyFolfie/aka_json
+Author: FluffyFolfie
+Author-email: e-stepanov-ig@yandex.ru
+License: MIT
+Project-URL: Documentation, https://github.com/FluffyFolfie/aka_json/wiki
+Project-URL: Source, https://github.com/FluffyFolfie/aka_json
+Project-URL: Bug Tracker, https://github.com/FluffyFolfie/aka_json/issues
+Keywords: json,json5,dataclass,serialization
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: dacite>=1.6.0
+Requires-Dist: json5>=0.9.5
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # aka_json
 
 A Python module for robust JSON/JSON5 file handling with datataсlass support, custom encoders/decoders, and enhanced error handling.
@@ -19,18 +54,12 @@ A Python module for robust JSON/JSON5 file handling with datataсlass support, c
 ## Installation
 
 ### Dependencies
-Use this if you clone repository
 ```bash
 pip install dacite json5
 ```
 
 ### Module Setup
-Install via PyPi
-```bash
-pip install dacite json5
-```
-
-Or clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/your-repo/aka_json.git
 cd aka_json
